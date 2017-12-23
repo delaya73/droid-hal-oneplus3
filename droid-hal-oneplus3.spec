@@ -10,6 +10,8 @@
 %define installable_zip 1
 %define droid_target_aarch64 1
 
+%define WANT_ADRENO_QUIRKS 1
+
 %define straggler_files \
 /init.qcom.sh\
 /init.qcom.usb.sh\
