@@ -10,6 +10,9 @@
 %define installable_zip 1
 %define droid_target_aarch64 1
 
+# For OTA kernel update
+%define enable_kernel_update 1
+
 %define android_config \
 #define WANT_ADRENO_QUIRKS 1 \
 #define QCOM_BSP 1 \
