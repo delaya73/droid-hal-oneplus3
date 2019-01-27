@@ -32,6 +32,8 @@
 /cache\
 %{nil}
 
+%define makefstab_skip_entries /dev/cpuctl
+
 %include rpm/dhd/droid-hal-device.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
